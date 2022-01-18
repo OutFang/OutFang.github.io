@@ -6,7 +6,7 @@
   <style>
       h1 {
         color: white;
-        background-color: midnightblue;
+        background-color: ;
         border-bottom : 3px solid grey;
       }
       h2 {
@@ -14,13 +14,29 @@
         font-size:16px;
         font-type: Arial , Sans-Serif;
       }
-      body {
-        color: Black ;
-        font-family: Arial , Sans-Serif;
-        background-image: url("https://images2.alphacoders.com/692/thumb-1920-692166.jpg");
-        display: flex ;
-        flex-direction: column ;
-        background-color: ;
+   body {
+position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+        height: 100%;
+    margin:0;
+    padding:0;
+    background-size: 100% ;
+    width:100%;  
+    color:black;
+}
+body:before {
+        content: "";
+        position: fixed;
+        height: 100%; width: 100%;
+        background: url(images/legumes.jpeg);
+        background-size: cover;
+        z-index: -1; /* Keep the background behind the content */     
+        -webkit-filter: blur(8px);
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+    background-size: cover; /* version standardisée */
+    }
       }
       a {
         color: deepblue ;
@@ -56,6 +72,14 @@
                 <!n°4>
                   <br><a href="https://outfang.github.io/"target="_blank"> Autre site </a>
                       <br><img src="./site wix.png" width=100px height=100px>
+                             <br>
+                             <br>
+                             <br>
+                             <br>
+                             <br>
+                             <br>
+                             <br>
+                             <br>
                              <br>
                              <br>
                     <!n°5>
